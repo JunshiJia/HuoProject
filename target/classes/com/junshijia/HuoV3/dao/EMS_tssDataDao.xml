@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.junshijia.HuoV3.dao.EMS_tssDataDao">
+    <!-- 查询所有 -->
+    <update id="updateData" parameterType="com.junshijia.HuoV3.domain.EMS_tssDataFromDB">
+		 update `ems_tss` set WT1=#{WT1}, WT2=#{WT2}, WT3=#{WT3}, WT4=#{WT4}, WT5=#{WT5} where id=1;
+	</update>
+
+</mapper>

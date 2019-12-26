@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入外部文件-->
+    <properties resource="jdbcConfig.properties"></properties>
+    <!--2级缓存-->
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+    </settings>
+    <!--配置别名-->
+    <typeAliases>
+        <package name="com.junshijia.HuoV3.domain"/>
+    </typeAliases>
+    <!--配置环境-->
+    <environments default="test1">
+        <environment id="test1">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${test.jdbc.driver}"/>
+                <property name="url" value="${test.jdbc.url}"/>
+                <property name="username" value="${test.jdbc.username}"/>
+                <property name="password" value="${test.jdbc.password}"/>
+                <property name="poolPingQuery" value="SELECT NOW()"/>
+                <property name="poolPingEnabled" value="true"/>
+                <property name="poolPingConnectionsNotUsedFor" value="3600000"/>
+            </dataSource>
+        </environment>
+
+        <environment id="test2">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${test2.jdbc.driver}"/>
+                <property name="url" value="${test2.jdbc.url}"/>
+                <property name="username" value="${test2.jdbc.username}"/>
+                <property name="password" value="${test2.jdbc.password}"/>
+                <property name="poolPingQuery" value="SELECT NOW()"/>
+                <property name="poolPingEnabled" value="true"/>
+                <property name="poolPingConnectionsNotUsedFor" value="3600000"/>
+            </dataSource>
+        </environment>
+        <environment id="test3">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="${test2.jdbc.driver}"/>
+                <property name="url" value="${test2.jdbc.url}"/>
+                <property name="username" value="${test2.jdbc.username}"/>
+                <property name="password" value="${test2.jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--注解接口所在类-->
+    <mappers>
+        <mapper resource="com/junshijia/HuoV3/dao/ID2DataDao.xml"/>
+        <mapper resource="com/junshijia/HuoV3/dao/EMS_enDataDao.xml"/>
+        <mapper resource="com/junshijia/HuoV3/dao/EMS_fshowDataDao.xml"/>
+        <mapper resource="com/junshijia/HuoV3/dao/EMS_tshowDataDao.xml"/>
+        <mapper resource="com/junshijia/HuoV3/dao/EMS_changeDataDao.xml"/>
+        <mapper resource="com/junshijia/HuoV3/dao/EMS_tssDataDao.xml"/>
+    </mappers>
+</configuration>

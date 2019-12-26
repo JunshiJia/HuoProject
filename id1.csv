@@ -1,0 +1,12 @@
+序号,英文标签名,中文描述,数据类型,单位,系数,小数位,寄存器地址,功能码,,,数据库名称,东方点表
+1,F_PowerManageEnable,风场有功管理使能信号给定,bool,,1,,1,1,,,ems_en,AP_Control_EN
+2,F_RPowerManageEnable,风场无功管理使能信号给定,bool,,1,,2,1,,,ems_en,RP_Control_EN
+3,F_PowerManageFB,风场有功管理使能反馈,bool,,1,,10001,2,,,无,无
+4,F_RPowerManageFB,风场无功管理使能反馈,bool,,1,,10002,2,,,无,无
+5,F_WT1ComError,1#风机通讯中断,bool,,1,,10003,2,,,ems_Tshow,WT1_MainState
+6,F_WT2ComError,2#风机通讯中断,bool,,1,,10004,2,,,ems_Tshow,WT2_MainState
+7,F_WT3ComError,3#风机通讯中断,bool,,1,,10005,2,,,ems_Tshow,WT3_MainState
+8,F_WT4ComError,4#风机通讯中断,bool,,1,,10006,2,,,ems_Tshow,WT4_MainState
+9,F_WT5ComError,5#风机通讯中断,bool,,1,,10007,2,,,ems_Tshow,WT5_MainState
+10,F_PPMActivePowerSetting,风场功率管理有功功率设定值,float32,kw,1,2,40001,3,,,无,AP_Manual_Val_Set
+11,F_PPMReactivePowerSetting,风场功率管理无功功率设定值,float32,kvar,1,2,40003,3,,,无,RP_Manual_Val_Set
