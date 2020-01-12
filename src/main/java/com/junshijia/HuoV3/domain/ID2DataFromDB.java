@@ -79,11 +79,26 @@ public class ID2DataFromDB implements Serializable {
     private Float HMI_IReg1604;
     private Float HMI_IReg1605;
     private Float HMI_IReg1606;
+    private Float HMI_IReg1751;
+    private Float HMI_IReg1752;
+    private Float HMI_IReg1757;
+    private Float HMI_IReg1758;
+    private Float HMI_IReg1763;
+    private Float HMI_IReg1764;
+    private Float HMI_IReg1853;
+    private Float HMI_IReg1856;
+    private Float HMI_IReg1863;
+    private Float HMI_IReg1866;
     private Float HMI_IReg105;
     private Float HMI_IReg261;
     private Float HMI_IReg262;
     private Float HMI_IReg210;
     private Float HMI_IReg254;
+
+    private Float DipX_T;
+    private Float DipY_T;
+    private Float DipX_B;
+    private Float DipY_B;
 
     private Integer HMI_Disc301;
     private Integer HMI_Disc302;
@@ -259,6 +274,172 @@ public class ID2DataFromDB implements Serializable {
     private Integer HMI_Disc472;
     private Integer HMI_Disc473;
     private Integer HMI_Disc474;
+    private Integer HMI_Disc483;
+    private Integer HMI_Disc484;
+    private Integer HMI_Disc485;
+    private Integer HMI_Disc486;
+    private Integer HMI_Disc487;
+    private Integer HMI_Disc488;
+
+    public Float getDipX_T() {
+        return DipX_T;
+    }
+
+    public void setDipX_T(Float dipX_T) {
+        DipX_T = dipX_T;
+    }
+
+    public Float getDipY_T() {
+        return DipY_T;
+    }
+
+    public void setDipY_T(Float dipY_T) {
+        DipY_T = dipY_T;
+    }
+
+    public Float getDipX_B() {
+        return DipX_B;
+    }
+
+    public void setDipX_B(Float dipX_B) {
+        DipX_B = dipX_B;
+    }
+
+    public Float getDipY_B() {
+        return DipY_B;
+    }
+
+    public void setDipY_B(Float dipY_B) {
+        DipY_B = dipY_B;
+    }
+
+    public Integer getHMI_Disc483() {
+        return HMI_Disc483;
+    }
+
+    public void setHMI_Disc483(Integer HMI_Disc483) {
+        this.HMI_Disc483 = HMI_Disc483;
+    }
+
+    public Integer getHMI_Disc484() {
+        return HMI_Disc484;
+    }
+
+    public void setHMI_Disc484(Integer HMI_Disc484) {
+        this.HMI_Disc484 = HMI_Disc484;
+    }
+
+    public Integer getHMI_Disc485() {
+        return HMI_Disc485;
+    }
+
+    public void setHMI_Disc485(Integer HMI_Disc485) {
+        this.HMI_Disc485 = HMI_Disc485;
+    }
+
+    public Integer getHMI_Disc486() {
+        return HMI_Disc486;
+    }
+
+    public void setHMI_Disc486(Integer HMI_Disc486) {
+        this.HMI_Disc486 = HMI_Disc486;
+    }
+
+    public Integer getHMI_Disc487() {
+        return HMI_Disc487;
+    }
+
+    public void setHMI_Disc487(Integer HMI_Disc487) {
+        this.HMI_Disc487 = HMI_Disc487;
+    }
+
+    public Integer getHMI_Disc488() {
+        return HMI_Disc488;
+    }
+
+    public void setHMI_Disc488(Integer HMI_Disc488) {
+        this.HMI_Disc488 = HMI_Disc488;
+    }
+
+    public Float getHMI_IReg1853() {
+        return HMI_IReg1853;
+    }
+
+    public void setHMI_IReg1853(Float HMI_IReg1853) {
+        this.HMI_IReg1853 = HMI_IReg1853;
+    }
+
+    public Float getHMI_IReg1856() {
+        return HMI_IReg1856;
+    }
+
+    public void setHMI_IReg1856(Float HMI_IReg1856) {
+        this.HMI_IReg1856 = HMI_IReg1856;
+    }
+
+    public Float getHMI_IReg1863() {
+        return HMI_IReg1863;
+    }
+
+    public void setHMI_IReg1863(Float HMI_IReg1863) {
+        this.HMI_IReg1863 = HMI_IReg1863;
+    }
+
+    public Float getHMI_IReg1866() {
+        return HMI_IReg1866;
+    }
+
+    public void setHMI_IReg1866(Float HMI_IReg1866) {
+        this.HMI_IReg1866 = HMI_IReg1866;
+    }
+
+    public Float getHMI_IReg1751() {
+        return HMI_IReg1751;
+    }
+
+    public void setHMI_IReg1751(Float HMI_IReg1751) {
+        this.HMI_IReg1751 = HMI_IReg1751;
+    }
+
+    public Float getHMI_IReg1752() {
+        return HMI_IReg1752;
+    }
+
+    public void setHMI_IReg1752(Float HMI_IReg1752) {
+        this.HMI_IReg1752 = HMI_IReg1752;
+    }
+
+    public Float getHMI_IReg1757() {
+        return HMI_IReg1757;
+    }
+
+    public void setHMI_IReg1757(Float HMI_IReg1757) {
+        this.HMI_IReg1757 = HMI_IReg1757;
+    }
+
+    public Float getHMI_IReg1758() {
+        return HMI_IReg1758;
+    }
+
+    public void setHMI_IReg1758(Float HMI_IReg1758) {
+        this.HMI_IReg1758 = HMI_IReg1758;
+    }
+
+    public Float getHMI_IReg1763() {
+        return HMI_IReg1763;
+    }
+
+    public void setHMI_IReg1763(Float HMI_IReg1763) {
+        this.HMI_IReg1763 = HMI_IReg1763;
+    }
+
+    public Float getHMI_IReg1764() {
+        return HMI_IReg1764;
+    }
+
+    public void setHMI_IReg1764(Float HMI_IReg1764) {
+        this.HMI_IReg1764 = HMI_IReg1764;
+    }
 
     public Float getHMI_IReg1524() {
         return HMI_IReg1524;

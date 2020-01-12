@@ -140,18 +140,18 @@ public class UpdateCSVDataLists {
                         count[i] = 0;
                     }
                     before[i] = after[i];
-                    if(count[i] > 4){
+                    if(count[i] > 5){
                         this.status[i] = false;
-                        count[i] = 6;
+                        count[i] = 8;
                     }else{
                         this.status[i] = true;
                     }
                 }
-                Thread.sleep(300);
+                Thread.sleep(500);
             } catch (Exception e) {
-                System.out.println("w8 2 seconds, set status error...");
+                System.out.println("w8 6 seconds, set status error...");
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(6000);
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }

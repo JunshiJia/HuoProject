@@ -108,9 +108,17 @@ public class HuoUtils {
         for(DataFromCSVShort data : avaList){
             //3开头
             if(data.getSlaveAddress()<40000 && data.getSlaveAddress()>30000){//input reg
-                regNum = data.getSlaveAddress()-30000;
-                if(data.getValue()!=null)
-                    processImage.setNumeric(RegisterRange.INPUT_REGISTER,regNum, DataType.FOUR_BYTE_FLOAT,data.getValue().floatValue());
+                regNum = data.getSlaveAddress()-30001;
+                if(data.getValue()!=null) {
+                    //小于1000用浮点
+                    if (regNum < 1000) {
+                        processImage.setNumeric(RegisterRange.INPUT_REGISTER, regNum,
+                                DataType.FOUR_BYTE_FLOAT_SWAPPED, data.getValue().floatValue());
+                    } else {//大于1000用long
+                        processImage.setNumeric(RegisterRange.INPUT_REGISTER, regNum,
+                                DataType.EIGHT_BYTE_INT_UNSIGNED, data.getValue().intValue());
+                    }
+                }
             }
             //1开头
             else if(data.getSlaveAddress()>10000 && data.getSlaveAddress()<20000){   //input status
@@ -122,9 +130,10 @@ public class HuoUtils {
             }
             //4开头
             else if(data.getSlaveAddress()>40000 && data.getSlaveAddress()<50000){//HOLDING_REGISTER
-                regNum = data.getSlaveAddress()-40000;
+                regNum = data.getSlaveAddress()-40001;
                 if(data.getValue()!=null)
-                    processImage.setNumeric(RegisterRange.HOLDING_REGISTER,regNum, DataType.FOUR_BYTE_FLOAT,data.getValue().floatValue());
+                    processImage.setNumeric(RegisterRange.HOLDING_REGISTER,regNum,
+                            DataType.FOUR_BYTE_FLOAT_SWAPPED,data.getValue().floatValue());
             }
             //0开头
             else if(data.getSlaveAddress()<10000){   //coil

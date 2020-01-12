@@ -82,6 +82,16 @@
         <result property="HMI_IReg1604" column="HMI_IReg[1604]"/>
         <result property="HMI_IReg1605" column="HMI_IReg[1605]"/>
         <result property="HMI_IReg1606" column="HMI_IReg[1606]"/>
+        <result property="HMI_IReg1751" column="HMI_IReg[1751]"/>
+        <result property="HMI_IReg1752" column="HMI_IReg[1752]"/>
+        <result property="HMI_IReg1757" column="HMI_IReg[1757]"/>
+        <result property="HMI_IReg1758" column="HMI_IReg[1758]"/>
+        <result property="HMI_IReg1763" column="HMI_IReg[1763]"/>
+        <result property="HMI_IReg1764" column="HMI_IReg[1764]"/>
+        <result property="HMI_IReg1853" column="HMI_IReg[1853]"/>
+        <result property="HMI_IReg1856" column="HMI_IReg[1856]"/>
+        <result property="HMI_IReg1863" column="HMI_IReg[1863]"/>
+        <result property="HMI_IReg1866" column="HMI_IReg[1866]"/>
         <result property="HMI_IReg105" column="HMI_IReg[105]"/>
         <result property="HMI_IReg261" column="HMI_IReg[261]"/>
         <result property="HMI_IReg262" column="HMI_IReg[262]"/>
@@ -261,6 +271,16 @@
         <result property="HMI_Disc472" column="HMI_Disc[472]"/>
         <result property="HMI_Disc473" column="HMI_Disc[473]"/>
         <result property="HMI_Disc474" column="HMI_Disc[474]"/>
+        <result property="HMI_Disc483" column="HMI_Disc[483]"/>
+        <result property="HMI_Disc484" column="HMI_Disc[484]"/>
+        <result property="HMI_Disc485" column="HMI_Disc[485]"/>
+        <result property="HMI_Disc486" column="HMI_Disc[486]"/>
+        <result property="HMI_Disc487" column="HMI_Disc[487]"/>
+        <result property="HMI_Disc488" column="HMI_Disc[488]"/>
+        <result property="DipX_T" column="DipX_T"/>
+        <result property="DipY_T" column="DipY_T"/>
+        <result property="DipX_B" column="DipX_B"/>
+        <result property="DipY_B" column="DipY_B"/>
     </resultMap>
 
     <!-- 查询所有 -->

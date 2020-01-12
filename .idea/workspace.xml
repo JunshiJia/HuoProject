@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7695bf89-2f35-40ee-987b-14fa1e55ae15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/id2to6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/id2to6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/id2to6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HuoV3-1.40.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/dao/ID2DataDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/dao/ID2DataDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/domain/ID2DataFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/domain/ID2DataFromDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/process/CSVDataList2Slave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/process/CSVDataList2Slave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/util/HuoUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/HuoV3/util/HuoUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-HuoV3-1.40.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,86 +33,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/id2to6.csv">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="130" column="72" lean-forward="true" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="72" />
+            <state relative-caret-position="-87">
+              <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="152">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-              <folding>
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/SwitchTurbine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/EMSWritesMainControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_tssDataDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/DatabaseConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id7.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -110,10 +70,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_tssDataDao.xml">
+        <entry file="file://$PROJECT_DIR$/id7.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/CSV2DataLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+              <folding>
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="e#3995#3996#0" expanded="true" />
+                <element signature="e#4024#4025#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="282" column="48" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
+              <folding>
+                <element signature="e#9142#9143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,25 +145,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ips</find>
-      <find>backforth</find>
-      <find>system</find>
-      <find>Wcap</find>
-      <find>readHoldingRegisters</find>
-      <find>destroy</find>
-      <find>init</find>
-      <find>updateProcessImageFromFeedbackData</find>
-      <find>slave port:9876 wait 40s and re-initiate...</find>
-      <find>port:9876 init error...</find>
-      <find>exception</find>
-      <find>dest</find>
-      <find>des</find>
       <find>107</find>
       <find>1405</find>
       <find>首发</find>
       <find>151</find>
-      <find>11</find>
-      <find>setActivePower2EMS</find>
       <find>updatecsv</find>
       <find>combine</find>
       <find>setinp</find>
@@ -156,6 +157,24 @@
       <find>wcap</find>
       <find>SYS_WFrm_PreActP</find>
       <find>刹车</find>
+      <find>理论</find>
+      <find>11</find>
+      <find>flag</find>
+      <find>setActivePower2EMS</find>
+      <find>status</find>
+      <find>10230</find>
+      <find>30187</find>
+      <find>30153</find>
+      <find>叶片</find>
+      <find>[110</find>
+      <find>实发有功功</find>
+      <find>振动</find>
+      <find>Dip</find>
+      <find>da</find>
+      <find>电量</find>
+      <find>30185</find>
+      <find>功率</find>
+      <find>发电量</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,9 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_changeDataDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_ttsDataDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_changeDataDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_tssDataFromDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_changeDataFromDB.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_tssDataDao.xml" />
@@ -196,14 +212,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/ReadSlave.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/extraEMS/TurbineStates.java" />
         <option value="$PROJECT_DIR$/id7.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/EMSWritesMainControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/SwitchTurbine.java" />
         <option value="$PROJECT_DIR$/src/main/resources/DatabaseConfig.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml" />
         <option value="$PROJECT_DIR$/id2to6.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -232,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,12 +394,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao" />
@@ -483,8 +504,18 @@
       <workItem from="1572053182801" duration="102434000" />
       <workItem from="1573175389014" duration="490000" />
       <workItem from="1573182279136" duration="418000" />
-      <workItem from="1573432179689" duration="74941000" />
+      <workItem from="1573432179689" duration="75551000" />
+      <workItem from="1578289379144" duration="13280000" />
+      <workItem from="1578638247194" duration="1532000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1577338953754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577338953754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178310000" />
+    <option name="totallyTimeSpent" value="193732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,9 +564,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,15 +574,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32094175" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39405206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32009926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39281288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32465923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32218093" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3287841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -569,6 +599,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="风机状态解析" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,24 +626,16 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/CSV2DataLists.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.4/modbus4j-3.0.4.jar!/com/serotonin/modbus4j/base/KeyedModbusLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.4/modbus4j-3.0.4.jar!/com/serotonin/modbus4j/locator/BaseLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.4/modbus4j-3.0.4.jar!/com/serotonin/modbus4j/BatchRead.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
@@ -689,22 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/DataFromCSVShort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/ID2DataDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -733,50 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/FetchEMSDataFromDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataListsArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="2294" column="29" selection-start-line="2294" selection-start-column="29" selection-end-line="2294" selection-end-column="29" />
-          <folding>
-            <element signature="e#52724#52725#0" expanded="true" />
-            <element signature="e#52764#52765#0" expanded="true" />
-            <element signature="e#52791#52792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1090">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -834,9 +805,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/FetchID2DataFromDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/ReadSlave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_changeDataDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_changeDataDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/SwitchTurbine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/EMSWritesMainControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_tssDataDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_tssDataDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_fshowDataDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_tshowDataFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="684">
           <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding>
             <element signature="e#1469#1470#0" expanded="true" />
@@ -863,64 +916,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/FetchID2DataFromDB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/extraEMS/TurbineStates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+        <state relative-caret-position="149">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#3449#3450#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
+            <element signature="e#3534#3535#0" expanded="true" />
+            <element signature="e#3568#3569#0" expanded="true" />
+            <element signature="e#3603#3604#0" expanded="true" />
+            <element signature="e#3637#3638#0" expanded="true" />
+            <element signature="e#3670#3671#0" expanded="true" />
+            <element signature="e#3701#3702#0" expanded="true" />
+            <element signature="e#3733#3734#0" expanded="true" />
+            <element signature="e#3764#3765#0" expanded="true" />
+            <element signature="e#3795#3796#0" expanded="true" />
+            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="e#3856#3857#0" expanded="true" />
+            <element signature="e#3886#3887#0" expanded="true" />
+            <element signature="e#3918#3919#0" expanded="true" />
+            <element signature="e#3949#3950#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4043#4044#0" expanded="true" />
+            <element signature="e#4073#4074#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4134#4135#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4211#4212#0" expanded="true" />
+            <element signature="e#4250#4251#0" expanded="true" />
+            <element signature="e#4288#4289#0" expanded="true" />
+            <element signature="e#4325#4326#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DatabaseConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/BackForthWithEMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/SendData2EMSMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="-1064">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/extraEMS/TurbineStates.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataListsArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        <state relative-caret-position="166">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/DataFromCSVShort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#3499#3500#0" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
-            <element signature="e#3637#3638#0" expanded="true" />
-            <element signature="e#3701#3702#0" expanded="true" />
-            <element signature="e#3764#3765#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3886#3887#0" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-            <element signature="e#4012#4013#0" expanded="true" />
-            <element signature="e#4073#4074#0" expanded="true" />
-            <element signature="e#4134#4135#0" expanded="true" />
-            <element signature="e#4211#4212#0" expanded="true" />
-            <element signature="e#4288#4289#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_fshowDataDao.java">
+    <entry file="file://$PROJECT_DIR$/id2to6.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="6099">
+          <caret line="321" column="30" selection-start-line="321" selection-start-column="27" selection-end-line="321" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/FetchEMSDataFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="205" column="54" selection-start-line="205" selection-start-column="54" selection-end-line="205" selection-end-column="54" />
+        <state relative-caret-position="2014">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/CSV2DataLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/ID2DataFromDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
+          <folding>
+            <element signature="e#9142#9143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dataTransfer/UpdateCSVDataLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1067">
-          <caret line="151" column="50" selection-start-line="151" selection-start-column="50" selection-end-line="151" selection-end-column="50" />
+        <state relative-caret-position="159">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="e#3995#3996#0" expanded="true" />
             <element signature="e#4024#4025#0" expanded="true" />
@@ -928,55 +1061,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/util/HuoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/process/CSVDataList2Slave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        <state relative-caret-position="-87">
+          <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/BackForthWithEMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/readMod/ReadSlave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_changeDataDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_changeDataDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/dao/EMS_tssDataDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/EMS_tssDataDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -987,61 +1089,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/SwitchTurbine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/HuoV3/dao/ID2DataDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/switchTurbine/EMSWritesMainControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DatabaseConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="351">
+          <caret line="282" column="48" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/HuoV3/domain/EMS_fshowDataFromDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-          <folding>
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id2to6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="130" column="72" lean-forward="true" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="72" />
         </state>
       </provider>
     </entry>

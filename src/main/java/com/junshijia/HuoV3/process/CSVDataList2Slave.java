@@ -186,7 +186,7 @@ public class CSVDataList2Slave implements Runnable{
         this.processImages[6].setNumeric(RegisterRange.INPUT_REGISTER,63, DataType.FOUR_BYTE_FLOAT,states.getNonLimitStopCap());
     }
 
-    //理论无功功率
+    //理论无功功率+单机总发电量（已经删除）
     private void setReactivePower2EMS(){
         int num = 0;
         if(this.process.getFetchTurbine().getT1Data().getHMI_IReg1422()>100)
@@ -201,6 +201,17 @@ public class CSVDataList2Slave implements Runnable{
             num++;
         this.processImages[6].setNumeric(RegisterRange.INPUT_REGISTER,15, DataType.FOUR_BYTE_FLOAT,(num*1314.74));
         this.processImages[6].setNumeric(RegisterRange.INPUT_REGISTER,17, DataType.FOUR_BYTE_FLOAT,-(num*1314.74));
+        //总发电量
+//        this.processImages[1].setNumeric(RegisterRange.INPUT_REGISTER,1001,DataType.EIGHT_BYTE_INT_UNSIGNED,
+//                Integer.valueOf(this.process.getFetchTurbine().getT1Data().getHMI_IReg1422().toString()));
+//        this.processImages[2].setNumeric(RegisterRange.INPUT_REGISTER,1001,DataType.EIGHT_BYTE_INT_UNSIGNED,
+//                Integer.valueOf(this.process.getFetchTurbine().getT2Data().getHMI_IReg1422().toString()));
+//        this.processImages[3].setNumeric(RegisterRange.INPUT_REGISTER,1001,DataType.EIGHT_BYTE_INT_UNSIGNED,
+//                Integer.valueOf(this.process.getFetchTurbine().getT3Data().getHMI_IReg1422().toString()));
+//        this.processImages[4].setNumeric(RegisterRange.INPUT_REGISTER,1001,DataType.EIGHT_BYTE_INT_UNSIGNED,
+//                Integer.valueOf(this.process.getFetchTurbine().getT4Data().getHMI_IReg1422().toString()));
+//        this.processImages[5].setNumeric(RegisterRange.INPUT_REGISTER,1001,DataType.EIGHT_BYTE_INT_UNSIGNED,
+//                Integer.valueOf(this.process.getFetchTurbine().getT5Data().getHMI_IReg1422().toString()));
     }
 
     //理论有功功率
@@ -235,15 +246,13 @@ public class CSVDataList2Slave implements Runnable{
         for(int i = 0; i < runningFlag.length;i++){
             if(runningFlag[i]==1 || runningFlag[i]==3) {
                 activePowerTotal += activePower[i];
-                if(runningFlag[i]==1){
-                    //30101+i
-                    processImages[6].setInputRegister(100+i,(short)0);
-                }else{
-                    processImages[6].setInputRegister(100+i,(short)1);
-                }
+                //30101+i
+                //processImages[6].setInputRegister(100+i,(short)0);
+                //新增单机理论功率，id2-6的30195
+                this.processImages[i+2].setNumeric(RegisterRange.INPUT_REGISTER,195, DataType.FOUR_BYTE_FLOAT,activePower[i]);
             }else if(runningFlag[i]==2){
-                activePowerTotal += (activePowerLimit[i] + 10F);
-                processImages[6].setInputRegister(100+i,(short)2);
+                //activePowerTotal += (activePowerLimit[i] + 10F);
+                //processImages[6].setInputRegister(100+i,(short)2);
             }
  //           System.out.println("flag "+i+": "+runningFlag[i]);
         }
@@ -255,6 +264,12 @@ public class CSVDataList2Slave implements Runnable{
         for(int i = 0; i < status.length; i++){
             if(status[i] = true) {
                 this.processImages[6].setInput(i + 10, true);
+            }
+        }
+        //新增前置系统信号中断判断
+        for(int i = 0; i < status.length; i++){
+            if(status[i] = true) {
+                this.processImages[i+2].setInput( 364, true);
             }
         }
     }

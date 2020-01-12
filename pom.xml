@@ -6,7 +6,7 @@
 
     <groupId>com.junshijia</groupId>
     <artifactId>HuoV3</artifactId>
-    <version>1.40</version>
+    <version>1.44</version>
     <build>
         <plugins>
             <plugin>
